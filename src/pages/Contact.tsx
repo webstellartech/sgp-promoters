@@ -1,10 +1,16 @@
 import ContactHeader from "../components/ContactHeader";
 import ContactInformation from "../components/ContactInformation";
 import ContactMessageForm from "../components/ContactMessageForm";
+import SEO from "../components/SEO";
 
 export default function Contact() {
   return (
     <>
+      <SEO
+        title="Contact SGP Promoters | Coimbatore"
+        description="Contact SGP Promoters for bank auction property enquiries, property consultancy, loans and financial services."
+        path="/contact"
+      />
       <ContactHeader />
 
       <main className="w-full bg-[#F8F9FB] py-10 sm:py-12 lg:py-14">

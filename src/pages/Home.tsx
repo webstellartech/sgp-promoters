@@ -10,10 +10,16 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import Testimonials from "../components/Testimonials";
 import PartnerWithSGP from "../components/PartnerWithSGP";
 import EnquiryBanner from "../components/EnquiryBanner";
+import SEO from "../components/SEO";
 
 export default function Home() {
   return (
     <>
+      <SEO
+        title="SGP Promoters | Bank Auction Properties in Coimbatore"
+        description="Explore bank auction properties, NPA deals, property consultancy, financial solutions and DRA services with SGP Promoters in Coimbatore."
+        path="/"
+      />
       <Hero />
       <StatsCounter />
       <DRASection />
