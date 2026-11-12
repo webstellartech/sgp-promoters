@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import EnquiryModal from "./EnquiryModal";
 import companyLogo from "../assets/logo.jpeg";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp,FaYoutube,FaLinkedinIn,FaInstagram,FaFacebookF, } from "react-icons/fa";
 
 const WHATSAPP_NUMBER = "919787747775";
 
@@ -25,6 +25,37 @@ const services = [
   "Property Consultancy",
   "Finance & Investment",
   "Debt Recovery Agency (DRA)",
+];
+
+const socialLinks = [
+  {
+    name: "YouTube",
+    href: "https://www.youtube.com/@YOUR_CHANNEL",
+    icon: FaYoutube,
+    hoverColor: "hover:text-white",
+    hoverBg: "hover:bg-[#FF0000]",
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/company/YOUR_PAGE",
+    icon: FaLinkedinIn,
+    hoverColor: "hover:text-white",
+    hoverBg: "hover:bg-[#0A66C2]",
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/sgp_shinefin?utm_source=qr&dlrf=MWxqYTQ4MzRsZ3V4Nw%3D%3D",
+    icon: FaInstagram,
+    hoverColor: "hover:text-white",
+    hoverBg: "hover:bg-[#E4405F]",
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/YOUR_PAGE",
+    icon: FaFacebookF,
+    hoverColor: "hover:text-white",
+    hoverBg: "hover:bg-[#1877F2]",
+  },
 ];
 
 export default function Footer() {
@@ -106,6 +137,37 @@ export default function Footer() {
                 Your trusted partner for verified bank properties,
                 NPA deals, and comprehensive financial services.
               </p>
+
+              {/* Social Media Links */}
+            <div className="mt-5 flex items-center gap-3">
+              {socialLinks.map((social) => {
+                const Icon = social.icon;
+
+                return (
+                  <a
+                    key={social.name}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Visit SGP Promoters on ${social.name}`}
+                    title={social.name}
+                    className={`
+                      flex h-10 w-10 items-center justify-center
+                      rounded-lg border border-white/10
+                      bg-white/5 text-gray-400
+                      transition-all duration-300 ease-in-out
+                      hover:-translate-y-1 hover:border-transparent
+                      ${social.hoverColor}
+                      ${social.hoverBg}
+                      focus-visible:outline-none
+                      focus-visible:ring-2 focus-visible:ring-[#FFBE00]
+                    `}
+                  >
+                    <Icon size={19} />
+                  </a>
+                );
+              })}
+            </div>
             </div>
 
             {/* Quick Links */}

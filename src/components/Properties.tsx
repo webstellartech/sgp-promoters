@@ -16,6 +16,7 @@ import prop4 from '../assets/5.png';
 import prop5 from '../assets/6.png';
 import prop6 from '../assets/7.png';
 import prop7 from '../assets/8.png';
+import prop8 from '../assets/9.png';
 
 type PropertyStatus = "live" | "upcoming" | "closed";
 
@@ -144,6 +145,18 @@ const properties: Property[] = [
     badge: "Private Sale",
     badgeColor: "bg-green-500",
     image: prop4,
+  },
+  {
+    status: "live",
+    title: "10 Cents DTCP Approved Land – Bank Auction",
+    location: "Periyanaicken Palayam, Coimbatore, Tamil Nadu",
+    price: "Contact for Price",
+    area: "10 Cents",
+    bedrooms: "N/A",
+    category: "Land",
+    badge: "Bank Auction",
+    badgeColor: "bg-red-500",
+    image: prop8,
   },
 ];
 
