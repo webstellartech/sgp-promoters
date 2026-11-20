@@ -7,6 +7,13 @@ import prop5 from '../assets/6.png';
 import prop6 from '../assets/7.png';
 import prop7 from '../assets/8.png';
 import prop8 from '../assets/9.png';
+import prop9 from '../assets/10.png';
+import prop10 from '../assets/11.png';
+import prop11 from '../assets/12.png';
+import prop12 from '../assets/13.png';
+import prop13 from '../assets/14.png';
+import prop14 from '../assets/15.png';
+import prop15 from '../assets/16.png';
 
 import {
   Search,
@@ -170,6 +177,97 @@ const properties: Property[] = [
     badge: "Bank Auction",
     badgeColor: "bg-red-500",
     image: prop8,
+  },
+  {
+    id: 11,
+    status: "live",
+    title: "Well-Constructed Individual House for Sale",
+    location: "Masakalipalayam, Near Peelamedu, Coimbatore, Tamil Nadu",
+    price: "Contact for Price",
+    area: "Not specified",
+    bedrooms: "Not specified",
+    category: "Residential",
+    badge: "For Sale",
+    badgeColor: "bg-green-500",
+    image: prop9,
+  },
+  {
+    id: 12,
+    status: "live",
+    title: "16 Cent East-Facing Bank Auction Land",
+    location: "Ramanathapuram, Sungam, Coimbatore, Tamil Nadu",
+    price: "Contact for Price",
+    area: "16 Cents",
+    bedrooms: "Not Applicable",
+    category: "Land",
+    badge: "Bank Auction",
+    badgeColor: "bg-red-500",
+    image: prop10,
+  },
+  {
+    id: 13,
+    status: "live",
+    title: "60 Cents Vacant Land – E-Auction",
+    location: "Annur, Near Nayruthi College, Coimbatore, Tamil Nadu",
+    price: "Contact for Price",
+    area: "60 Cents",
+    bedrooms: "Not Applicable",
+    category: "Land",
+    badge: "E-Auction",
+    badgeColor: "bg-red-500",
+    image: prop11,
+  },
+  {
+    id: 14,
+    status: "live",
+    title: "60 Cents Land for Sale",
+    location: "Near Kovilpalayam, Near Niruthi College, Coimbatore, Tamil Nadu",
+    price: "Contact for Price",
+    area: "60 Cents",
+    bedrooms: "Not Applicable",
+    category: "Land",
+    badge: "For Sale",
+    badgeColor: "bg-green-500",
+    image: prop12,
+  },
+  {
+    id: 15,
+    status: "live",
+    title: "Hyundai Verna 2023 Model – Bank Auction",
+    location: "Coimbatore, Tamil Nadu",
+    price: "Contact for Price",
+    area: "Not Applicable",
+    bedrooms: "Not Applicable",
+    category: "Vehicle",
+    badge: "Bank Auction",
+    badgeColor: "bg-red-500",
+    image: prop13,
+  },
+  {
+    id: 16,
+    status: "live",
+    title: "81 Cents Vacant Land – Bank Auction",
+    location: "Near Kovilpalayam, Coimbatore, Tamil Nadu",
+    price: "Contact for Price",
+    area: "81 Cents",
+    bedrooms: "Not Applicable",
+    category: "Land",
+    badge: "Bank Auction",
+    badgeColor: "bg-red-500",
+    image: prop14,
+  },
+  {
+    id: 17,
+    status: "live",
+    title: "Textile Mill with 3.59 Acres – Bank Auction",
+    location: "Kalangal, Sulur, Coimbatore, Tamil Nadu",
+    price: "₹13,45,60,000",
+    area: "3.59 Acres",
+    bedrooms: "Not Applicable",
+    category: "Industrial",
+    badge: "Online E-Auction",
+    badgeColor: "bg-red-500",
+    image: prop15,
   },
 ];
 

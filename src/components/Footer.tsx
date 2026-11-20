@@ -30,7 +30,7 @@ const services = [
 const socialLinks = [
   {
     name: "YouTube",
-    href: "https://www.youtube.com/@YOUR_CHANNEL",
+    href: "https://www.youtube.com/@NatarajanK-cbe/shorts",
     icon: FaYoutube,
     hoverColor: "hover:text-white",
     hoverBg: "hover:bg-[#FF0000]",
@@ -44,14 +44,14 @@ const socialLinks = [
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/sgp_shinefin?utm_source=qr&dlrf=MWxqYTQ4MzRsZ3V4Nw%3D%3D",
+    href: "https://www.instagram.com/sgp_promoterscbe?avpt=MTkwb24yMWRidmxj",
     icon: FaInstagram,
     hoverColor: "hover:text-white",
     hoverBg: "hover:bg-[#E4405F]",
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/YOUR_PAGE",
+    href: "https://www.facebook.com/share/1CjSDv6cik/",
     icon: FaFacebookF,
     hoverColor: "hover:text-white",
     hoverBg: "hover:bg-[#1877F2]",
